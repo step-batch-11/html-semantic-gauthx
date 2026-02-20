@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0em 6em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body>header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  padding-bottom: .6em;
+}
+
+body>header>hgroup>p {
+  margin-top: .4em;
+  font-size: 1.3em;
+}
+
+body>header nav {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+body>header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+body>header nav a:hover {
+  box-shadow: 0px 2px gray;
+}
+
+main {
+  margin: 1em 0em;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+article mark {
+  background-color: rgb(45, 215, 45);
+}
+
+article header {
+  margin-bottom: 1em;
+}
+
+article header h2 {
+  font-size: 2em;
+}
+
+article section {
+  padding-top: 1.5em;
+}
+
+article section h3 {
+  font-size: 1.4em;
+  margin-bottom: .5em;
+}
+
+article address {
+  margin-top: 1.5em;
+}
+
+article details {
+  margin: 1.3em;
+}
+
+aside :nth-child(1) {
+  font-weight: 750;
+}
+
+figure {
+  margin-top: 1em;
+}
+
+body>footer {
+  border-top: 2px solid gray;
+  padding-top: .5em;
+}
+
+dialog {
+  position: relative;
+  left: 44%;
+}
