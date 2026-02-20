@@ -1,11 +1,11 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
-  margin: 0em 6em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: .7em 6em;
 }
 
 body>header {
@@ -17,7 +17,7 @@ body>header {
 
 body>header>hgroup>p {
   margin-top: .4em;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 body>header nav {
@@ -40,11 +40,26 @@ main {
   margin: 1em 0em;
   display: flex;
   justify-content: space-between;
+}
 
+article p {
+  line-height: 1.7em;
+  font-size: 1.3em;
+}
+
+address p {
+  font-size: 1.1em;
+}
+
+article {
+  background-color: rgb(247, 249, 252);
+  width: 79.5%;
+  padding: 1em 1.8em;
 }
 
 article mark {
   background-color: rgb(45, 215, 45);
+  font-size: 1.2em;
 }
 
 article header {
@@ -53,6 +68,10 @@ article header {
 
 article header h2 {
   font-size: 2em;
+}
+
+article header p {
+  font-size: 1.1em;
 }
 
 article section {
@@ -72,6 +91,11 @@ article details {
   margin: 1.3em;
 }
 
+aside {
+  background-color: rgb(247, 249, 252);
+  padding: 1em 1em;
+}
+
 aside :nth-child(1) {
   font-weight: 750;
 }
@@ -83,6 +107,10 @@ figure {
 body>footer {
   border-top: 2px solid gray;
   padding-top: .5em;
+}
+
+details {
+  font-size: 1.2em;
 }
 
 dialog {
